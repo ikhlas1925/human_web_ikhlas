@@ -12,3 +12,17 @@
     color: white;
     padding: 10px;;
 }
+
+/* features.html */
+
+.human-features-container{
+    margin-top: 3%;
+}
+
+.human-features-main{
+    margin: 3%;
+}
+
+.human-features-form{
+    margin-right: 21%;
+}
