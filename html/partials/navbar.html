@@ -7,8 +7,8 @@
 
     <div class="collapse navbar-collapse human-navbar" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+                <a class="nav-link" href="/index.html">Home</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/html/feature.html">Features</a>
@@ -24,4 +24,13 @@
             </li>
         </ul>
     </div>
+    <script type="text/javascript">
+
+        //NavLink Active
+        var loc = window.location.pathname;
+
+        $('.nav-item').find('a').each(function () {
+            $(this).toggleClass('active', $(this).attr('href') == loc);
+        });
+    </script>
 </nav>

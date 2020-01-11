@@ -11,8 +11,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script>
-        $(document).ready(function () {
+        $(document).ready(function(){
             $("#human-nav-bar").load("partials/navbar.html");
+            $("#human-footer-bar").load("partials/footer.html");
         });
     </script>
 </head>
@@ -24,9 +25,7 @@
     </header>
     <main>
     </main>
-    <footer class="text-center bg-dark human-footer fixed-bottom">
-        &copy All Rights Reserved. <i>The Human Project</i>
-    </footer>
+    <div id="human-footer-bar"></div>
 </body>
 
 </html>
