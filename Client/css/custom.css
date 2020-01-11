@@ -25,3 +25,12 @@
 .human-features-form{
     margin-right: 21%;
 }
+
+/*Common CSS*/
+.human-remove{
+    display: none;
+}
+
+.feature-loading{
+    margin-top: 10px;
+}
