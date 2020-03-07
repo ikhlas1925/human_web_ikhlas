@@ -1,36 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<html>
+  <head>
     <title>The Human Project</title>
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/custom.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script>
-        $(document).ready(function(){
-            $("#human-nav-bar").load("html/partials/navbar.html");
-            $("#human-footer-bar").load("html/partials/footer.html");
-        });
+      $(document).ready(function() {
+        $("#human-nav-bar").load("html/partials/navbar.html");
+      });
     </script>
-</head>
-
-<body>
+  </head>
+  <body>
     <header>
-        <div id="human-nav-bar"></div>
+      <div id="human-nav-bar"></div>
     </header>
     <main>
-        <div class="text-center human-index-div">
-            <h3 class="display-1">Making you human.</h3>
-            <p class="lead">Today, we are more robot than human. Try out The Human Porject and start over from Square
-                One.</p>
-            <button type="button" class="btn btn-outline-dark">Learn More</button>
-        </div>
-
+      <div class="text-center human-index-div">
+        <h3 class="display-3">Making you human.</h3>
+        <p class="lead">
+          Today, we are more robot than human. Try out The Human Project and
+          start over from Square One.
+        </p>
+        <button type="button" class="btn btn-dark">Learn More</button>
+      </div>
     </main>
-    <div id="human-footer-bar"></div>
-</body>
+    <footer class="text-center bg-dark fixed-bottom human-footer">
+      &copy All Rights Reserved. <i>The Human Project</i> 2019
+    </footer>
+  </body>
 </html>

@@ -1,11 +1,19 @@
 {
-  "name": "human_server",
+  "name": "server",
   "version": "1.0.0",
-  "description": "Human Server",
+  "description": "Server side for Human Project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "IkhlasIsmi",
-  "license": "ISC"
+  "keywords": [
+    "NodeJs",
+    "Server-side"
+  ],
+  "author": "Kripa Jayakumar",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
 }

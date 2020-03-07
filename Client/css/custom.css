@@ -1,36 +1,33 @@
-/*index.html css*/
-.human-navbar{
-    margin-left: 70%;
+/* index.html css */
+
+.human-nav-bar {
+  margin-left: 49%;
 }
 
-.human-index-div{
-    margin: 16%;
+.human-index-div {
+  margin: 16%;
 }
 
-.human-footer{
-    color: white;
-    padding: 10px;;
+.human-footer {
+  color: white;
+  padding: 10px;
 }
 
-/* features.html */
+/* features.html css */
 
-.human-features-container{
-    margin-top: 3%;
+.human-features-container {
+  margin-top: 3%;
 }
 
-.human-features-main{
-    margin: 3%;
+.human-features-main {
+  margin: 3.5%;
 }
 
-.human-features-form{
-    margin-right: 21%;
+.human-features-form {
+  margin-right: 21%;
 }
 
-/*Common CSS*/
-.human-remove{
-    display: none;
-}
-
-.feature-loading{
-    margin-top: 10px;
+/* Common css */
+.human-removed {
+  display: none;
 }

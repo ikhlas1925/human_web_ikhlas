@@ -1,36 +1,30 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="/index.html">The Human Project</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse human-navbar" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="/index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/html/feature.html">Features</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/html/pricing.html">Pricing</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/html/contact_us.html">Contact Us</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/html/sign_up.html">Sign Up</a>
-            </li>
-        </ul>
-    </div>
-    <script type="text/javascript">
-
-        //NavLink Active
-        var loc = window.location.pathname;
-
-        $('.nav-item').find('a').each(function () {
-            $(this).toggleClass('active', $(this).attr('href') == loc);
-        });
-    </script>
+  <a class="navbar-brand" href="/index.html">The Human Project</a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarNav"
+    aria-controls="navbarNav"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse human-nav-bar" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item" id="nav-feature">
+        <a class="nav-link" href="/html/features.html">Features</a>
+      </li>
+      <li class="nav-item" id="nav-pricing">
+        <a class="nav-link" href="/html/pricing.html">Pricing</a>
+      </li>
+      <li class="nav-item" id="nav-contact-us">
+        <a class="nav-link" href="/html/contact-us.html">Contact Us</a>
+      </li>
+      <li class="nav-item" id="nav-sign-up">
+        <a class="nav-link" href="/html/sign-up.html">Sign Up</a>
+      </li>
+    </ul>
+  </div>
 </nav>
